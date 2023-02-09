@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "propertypane-demo-client-side-solution",
+    "id": "5b30cf0f-1506-4987-ba9b-ba44bcb78362",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "propertypane-demo description"
+      },
+      "longDescription": {
+        "default": "propertypane-demo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "propertypane-demo Feature",
+        "description": "The feature that activates elements of the propertypane-demo solution.",
+        "id": "a5e438a0-7231-4a2e-9705-48c3aa6287d6",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/propertypane-demo.sppkg"
+  }
+}
